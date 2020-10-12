@@ -1,0 +1,22 @@
+@import "../node_modules/bulma/bulma.sass"
+
+// adjustments for the crazy image
+section.hero
+    #contact
+        border-color: $purple
+        color: $purple
+        &:hover
+            background-color: $purple
+            color: $white
+    .hero-body
+        .columns
+            .column:last-child
+                padding-right: 0
+                figure.image
+                    margin: 0
+                    img
+                        position: relative
+                        height: calc(100vh - 3.25rem)
+                        width: auto
+nav.navbar
+    border-bottom: 1px solid $purple
